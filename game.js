@@ -9,7 +9,13 @@ $(document).keypress(function(){
         nextSequence();
     }
 });
-
+$(document).on("click", function(){
+    if(!started){
+        $("#level-title").text("Level "+level);
+        started = true;
+        nextSequence();
+    }
+})
 var gamePattern = [];
 var userClickedPattern = [];
 function nextSequence() {
