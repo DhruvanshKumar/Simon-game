@@ -1,4 +1,4 @@
-
+alert("The only rule is: you have to remember the previous pattern too and after each correct sequence the game will only flash the new colour but you have to click the sequence from the starting. All the best :)")
 var buttonColours = ["red", "blue", "green", "yellow"];
 var started = false;
 var level = 0;
